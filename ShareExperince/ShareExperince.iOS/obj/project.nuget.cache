@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "sJISiBUNqRjzu106ulN6P8zFk5G/l0EYKfErbOeWzf59E7GdgYWfM7mCA+1SL5Z+VodBuErRBx5lGt6eWRwAig==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Shaan\\Desktop\\Userrating\\ShareExperince\\ShareExperince\\ShareExperince.iOS\\ShareExperince.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shaan\\.nuget\\packages\\syncfusion.licensing\\18.4.0.48\\syncfusion.licensing.18.4.0.48.nupkg.sha512",
+    "C:\\Users\\Shaan\\.nuget\\packages\\syncfusion.xamarin.core\\18.4.0.48\\syncfusion.xamarin.core.18.4.0.48.nupkg.sha512",
+    "C:\\Users\\Shaan\\.nuget\\packages\\syncfusion.xamarin.sfrating\\18.4.0.48\\syncfusion.xamarin.sfrating.18.4.0.48.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

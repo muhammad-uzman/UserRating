@@ -1,0 +1,16 @@
+C:\Users\Shaan\source\repos\ShareExperince\ShareExperince\ShareExperince\bin\Debug\netstandard2.0\ShareExperince.deps.json
+C:\Users\Shaan\source\repos\ShareExperince\ShareExperince\ShareExperince\bin\Debug\netstandard2.0\ShareExperince.dll
+C:\Users\Shaan\source\repos\ShareExperince\ShareExperince\ShareExperince\bin\Debug\netstandard2.0\ref\ShareExperince.dll
+C:\Users\Shaan\source\repos\ShareExperince\ShareExperince\ShareExperince\bin\Debug\netstandard2.0\ShareExperince.pdb
+C:\Users\Shaan\source\repos\ShareExperince\ShareExperince\ShareExperince\obj\Debug\netstandard2.0\ShareExperince.csprojAssemblyReference.cache
+C:\Users\Shaan\source\repos\ShareExperince\ShareExperince\ShareExperince\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Shaan\source\repos\ShareExperince\ShareExperince\ShareExperince\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Shaan\source\repos\ShareExperince\ShareExperince\ShareExperince\obj\Debug\netstandard2.0\View\LoginPage.xaml.g.cs
+C:\Users\Shaan\source\repos\ShareExperince\ShareExperince\ShareExperince\obj\Debug\netstandard2.0\ShareExperince.AssemblyInfoInputs.cache
+C:\Users\Shaan\source\repos\ShareExperince\ShareExperince\ShareExperince\obj\Debug\netstandard2.0\ShareExperince.AssemblyInfo.cs
+C:\Users\Shaan\source\repos\ShareExperince\ShareExperince\ShareExperince\obj\Debug\netstandard2.0\ShareExperince.csproj.CoreCompileInputs.cache
+C:\Users\Shaan\source\repos\ShareExperince\ShareExperince\ShareExperince\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Shaan\source\repos\ShareExperince\ShareExperince\ShareExperince\obj\Debug\netstandard2.0\ShareExperince.dll
+C:\Users\Shaan\source\repos\ShareExperince\ShareExperince\ShareExperince\obj\Debug\netstandard2.0\ref\ShareExperince.dll
+C:\Users\Shaan\source\repos\ShareExperince\ShareExperince\ShareExperince\obj\Debug\netstandard2.0\ShareExperince.pdb
+C:\Users\Shaan\source\repos\ShareExperince\ShareExperince\ShareExperince\obj\Debug\netstandard2.0\View\UserRatingPage.xaml.g.cs

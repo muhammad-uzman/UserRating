@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:Renderers="clr-namespace:ShareExperince.Renderers"
+             x:Class="ShareExperince.View.LoginPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="10,30">
+                <Label Text="Login Now" FontSize="26" TextColor="Black" HorizontalOptions="Center"/>
+                <Label HorizontalTextAlignment="Center" Margin="5" Text="Please login to use this App"
+                   ></Label>
+                <StackLayout Margin="0,50">
+                    <Label Text="Login via Social Account" HorizontalOptions="Center"/>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Spacing="10"   Margin="20,10"  >
+                        <Frame BackgroundColor="#DB4437" CornerRadius="5" HeightRequest="15"   HorizontalOptions="FillAndExpand">
+                            <StackLayout Orientation="Horizontal" Spacing="5" HorizontalOptions="Center" >
+                                <Image Source="google.png" HeightRequest="15" Aspect="AspectFill" ></Image>
+                                <Label Text="Google   "  TextColor="AliceBlue"   FontSize="12" HorizontalTextAlignment="Center" ></Label>
+                            </StackLayout>
+                        </Frame>
+                        <Frame  CornerRadius="5" HeightRequest="15"   BackgroundColor="#475993" HorizontalOptions="FillAndExpand">
+                            <StackLayout Orientation="Horizontal" Spacing="5" HorizontalOptions="Center" >
+                                <Image Source="facebook.png" HeightRequest="15" Aspect="AspectFill" ></Image>
+                                <Label Text="Facebook"  TextColor="AliceBlue" HorizontalTextAlignment="Center"   FontSize="13" ></Label>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout >
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Or login with email" HorizontalOptions="Center" ></Label>
+                    <Frame Margin="0" Padding="5" CornerRadius="5" BorderColor="#E2E6EA"  >
+                        <Renderers:EntryBorderRenderer
+                ClearButtonVisibility="WhileEditing" FontSize="18" HorizontalOptions="FillAndExpand" 
+                Keyboard="Text" Placeholder="Email" Text="{Binding Email}" PlaceholderColor="#99A1B3" TextColor="#484848" />
+                    </Frame>
+                    <Frame CornerRadius="5" Margin="0" Padding="5" BorderColor="#E2E6EA"  >
+                        <Renderers:EntryBorderRenderer
+                ClearButtonVisibility="WhileEditing" FontSize="18" HorizontalOptions="FillAndExpand" 
+                Keyboard="Text" Placeholder="Password" Text="{Binding Password}" IsPassword="True" PlaceholderColor="#99A1B3" TextColor="#484848" />
+                    </Frame>
+                    <StackLayout Margin="10,0" Orientation="Horizontal" >
+                        <StackLayout Orientation="Horizontal">
+                            <CheckBox  Color="#3C82FF" IsChecked="False">
+                            </CheckBox  >
+                            <Label  VerticalTextAlignment="Center" Text="Remember me" ></Label>
+                        </StackLayout >
+                        <StackLayout  HorizontalOptions="EndAndExpand" Margin="
+                                 0,10 " >
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="ForgetPasswordlabel"  NumberOfTapsRequired="1"/>
+                            </StackLayout.GestureRecognizers>
+                            <Label Text="Forget Password" VerticalTextAlignment="Center" >
+                            </Label>
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout Margin="10,20" Spacing="20" >
+                        <Button   HeightRequest="50" CornerRadius="5" x:Name="Login" Command="{Binding LoginCommand}"   BackgroundColor="#3C82FF" Text="Login" TextColor="AliceBlue"  ></Button>
+                        <StackLayout  Orientation="Horizontal" HorizontalOptions="Center" >
+                            <StackLayout   Orientation="Horizontal">
+                                <Label Text="Don't have an account?" ></Label>
+                            </StackLayout>
+                            <StackLayout>
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer x:Name="SignUplabel"  NumberOfTapsRequired="1"/>
+                                </StackLayout.GestureRecognizers>
+                                <Label Text="SignUp" TextColor="#3C82FF"  />
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
